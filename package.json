@@ -1,15 +1,16 @@
 {
   "name": "publish-starwarsnames",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wwwx/publish-teast.git"
+    "url": "https://github.com/wwwx/publish-starwarsnames.git"
   },
   "keywords": [
     "random",
@@ -19,17 +20,18 @@
   "author": "wangxu <834166254@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wwwx/publish-teast/issues"
+    "url": "https://github.com/wwwx/publish-starwarsnames/issues"
   },
-  "homepage": "https://github.com/wwwx/publish-teast#readme",
+  "homepage": "https://github.com/wwwx/publish-starwarsnames#readme",
   "dependencies": {
     "unique-random-array": "3.0.0"
   },
   "devDependencies": {
     "commitizen": "4.2.3",
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "semantic-release": "^17.4.2"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
-  } 
+  }
 }
